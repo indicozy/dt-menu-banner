@@ -83,7 +83,7 @@ Options:
 
 - `--image FILE` picture, 8-bit PNG (RGB or RGBA; default `capsule.png` next to the script);
 - `--url URL` link opened on click (default: the Steam page);
-- `--caption TEXT` caption under the banner. Only characters of the game's font: Latin,
+- `--caption TEXT` caption above the banner. Only characters of the game's font: Latin,
   Cyrillic, digits and `\ = - + ? ! , . ' " : ; ( ) < > / % @ _`. Straight double quotes
   only (the font has no « »). At most 255 bytes in cp1251;
 - `--restore` put the original back from `.bak` and delete `.bak`.
